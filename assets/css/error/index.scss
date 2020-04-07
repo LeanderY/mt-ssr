@@ -1,0 +1,30 @@
+.error-container {
+    width: 564px;
+    margin: 60px auto;
+    text-align: center;
+    .error-img {
+        width: 284px;
+        height: 224px;
+    }
+    .error-msg {
+        margin-top: 9px;
+        font-size: 12px;
+        color: #999999;
+    }
+    .error-word {
+        margin-top: 20px;
+        font-size: 20px;
+        color: #333333;
+    }
+    a {
+        width: 134px;
+        text-align: center;
+        margin: 36px auto;
+        background: linear-gradient(to bottom right,#FFD000,#FFBD00);
+        border-radius: 100px;
+        font-size: 14px;
+        display: block;
+        line-height: 40px;
+        color: #222222;
+    }
+}
