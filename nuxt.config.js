@@ -1,6 +1,11 @@
+// const env = require('./env')
 
 module.exports = {
   mode: 'universal',
+  server: {
+    port: 4000, // default: 3000
+    host: 'localhost' // default: localhost
+  },
   /*
   ** Headers of the page
   */

@@ -17,7 +17,7 @@
 </template>
 
 <script>
-import { mapState } from 'Vuex'
+import { mapState } from 'vuex'
 import Emenu from '@/components/index/menu'
 import Life from '@/components/index/life'
 import Artistic from '@/components/index/artistic'

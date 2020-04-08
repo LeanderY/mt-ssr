@@ -78,9 +78,7 @@ export default {
     input: _.debounce(async function () {
       const self = this
       self.searchList = []
-      const {
-        data: { top }
-      } = await this.$axios.get('/search/top', {
+      const { top } = await this.$axios.get('/search/top', {
         params: {
           title: self.search,
           city: self.city
